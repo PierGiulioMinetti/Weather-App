@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-center my-4">
+            Giulio's Weather
+        </h1>
+
+        <form action="" class="change-location my-4 text-center text-muted">
+            <label for="city">Enter a location for weather information</label>
+            <input type="text" name="city" class="form-control p-4" id="">
+        </form>
+
+        <div class="card shadow-lg rounded d-none">
+            <img src="https://via.placeholder.com/400x300" class="time card-img-top" alt="">
+            <div class="icon bg-light mx-auto text-center">
+                <img src="" alt="">
+            </div>
+
+            <div class="text-muted text-uppercase text-center details">
+                <h5 class="my-3">
+                    City name
+                </h5>
+                <div class="my-3">
+                    Weather condition
+                </div>
+                <div class="display-4 my-4">
+                    <span>temp C</span>
+                    <span>&deg;</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="js/forecast.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
